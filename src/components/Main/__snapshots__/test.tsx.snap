@@ -25,12 +25,12 @@ exports[`<Main /> should render the heading 1`] = `
   padding: 3rem;
 }
 
-.c2 {
+.c1 {
   width: 25rem;
   margin-bottom: 2rem;
 }
 
-.c1 {
+.c2 {
   font-size: 2.5rem;
 }
 
@@ -47,16 +47,16 @@ exports[`<Main /> should render the heading 1`] = `
 <main
   class="c0"
 >
-  <h1
+  <img
+    alt="Imagem de um átomo e React Avançado escrito ao lado."
     class="c1"
+    src="/img/logo.svg"
+  />
+  <h1
+    class="c2"
   >
     React Avançado
   </h1>
-  <img
-    alt="Imagem de um átomo e React Avançado escrito ao lado."
-    class="c2"
-    src="/img/logo.svg"
-  />
   <h2
     class="c3"
   >
